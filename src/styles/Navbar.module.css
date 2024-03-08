@@ -11,6 +11,6 @@
     transition: .3s;
 }
 
-.navbar li:hover {
+.navbar li:first-child:hover {
 color: #999;
 }

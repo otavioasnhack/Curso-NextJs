@@ -10,6 +10,11 @@ export default function Navbar() {
             </Link>
         </li>
         <li>
+            <Link href='/todos'>
+             Todos
+            </Link>
+        </li>
+        <li>
             <Link href='/Products'>
              produtos
             </Link>
@@ -17,6 +22,16 @@ export default function Navbar() {
         <li>
             <Link href='/about'>
              Sobre Nós
+            </Link>
+        </li>
+        <li>
+            <Link href='/nova'>
+             Página Nova
+            </Link>
+        </li>
+        <li>
+            <Link href='/contact'>
+             Contato
             </Link>
         </li>
         </ul>
