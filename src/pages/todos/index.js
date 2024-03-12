@@ -1,4 +1,4 @@
-import Styles from '../styles/Todos.module.css'
+import Styles from '../../styles/Todos.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -22,7 +22,7 @@ export default function Todos({ todos }) {
             <h1>Tarefas:</h1>
             <ul className={Styles.todolist}>
                {todos.map((todo) => (
-                <li key = {todo.id}>{todo.title}</li>
+                <li key = {todo.id}>{todo.title} - <Link href={`/todos/${todo.id}/`}>Ver mais</Link></li>
                ))}
             </ul>
             <Link href='/'>
